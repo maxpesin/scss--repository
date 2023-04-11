@@ -1,0 +1,24 @@
+@use "sass:math";
+
+$max-increment: 999;
+
+//generate modal margin classes
+@for $i from 0 through $max-increment {
+    .modal-margin-#{$i} {
+        margin: #{i}px;
+    }
+}
+
+//generate modal width classes
+@for $i from 0 through $max-increment {
+    .modal-width-#{$i} {
+        width: #{i}px;
+    }
+}
+
+//generate modal height classes
+@for $i from 0 through $max-increment {
+    .modal-height-#{$i} {
+        height: #{i}px;
+    }
+}
